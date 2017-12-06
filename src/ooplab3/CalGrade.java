@@ -14,7 +14,7 @@ public class CalGrade {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int score;
-        int count
+//        int count
         System.out.print("Enter your score (0-100): ");
         score = scanner.nextInt();
 //        test condition score

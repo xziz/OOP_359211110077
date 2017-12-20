@@ -1,57 +1,74 @@
 package ooplab5;
 
-
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.Scanner;
 
 public class testSortingArray {
-    private static final int MAX = 5;
-    private static int number[] = new int[MAX];
-
+    private static final int MAX = 20;
+    private static ArrayList even = new ArrayList();
+    private static ArrayList odd = new ArrayList();
     public static void main(String[] args) {
-        inputData(number, number.length);
-        showData(number, number.length);
-        sortingDataAscending(number);
-//        even(number);
+        Integer[] num = new Integer[MAX];
+        num = inputData(num);
+        showData(num);
+        num = sortData(num);
 
+        validateEvenData(num);  //even
+        validateOddDate(num); //odd
 
+        System.out.println("Validate Data in array with Desending order: ");
+        showArrayList("even",even);
+        showArrayList("odd",odd);
     }//main
 
-//    public static void even(int[] number) {
-//        System.out.print("Even number: ");
-//        for (int i=number){
-//            if (i%2==0||i%4==0||i%6==0)
-//                System.out.print(i+" ");
-//        }
-//    }
-    private static void sortingDataAscending(int[] number) {
-        System.out.println("Ascending Order: ");
-        Arrays.sort(number);
-        showData(number,number.length);
-    }//sortingData
+    private static Integer[] sortData(Integer[] num) {
+        Arrays.sort(num);
+        return num;
+    }
 
-    private static void inputData(int[] number, int length) {
-        //user input data
-        Scanner scanner = new Scanner(System.in);
-        for (int i=0;i<length;i++)
-        {
-            System.out.print("Enter an integer["+i+"]: ");
-            number[i] = scanner.nextInt();
-        }
-    }//inputData
-
-    private static void showData(int[] number, int length) {
-        System.out.print("Data in array: ");
-        for(int i=0;i<length;i++){
-            System.out.print(number[i]+" ");
+    private static void showArrayList(String msg, ArrayList data) {
+        if (msg.equals("even"))
+            System.out.print("Even number: ");
+        else
+            System.out.print("Odd number: ");
+        for (int i=0;i<data.size();i++){
+            System.out.print(data.get(i)+" ");
         }
         System.out.println();
 
-    }//showData
+    }
 
+    private static void validateOddDate(Integer[] num) {
+        for (int i=0;i<num.length;i++){
+            if (num[i]%2!=0)
+                odd.add(num[i]);
+        }
+    }
 
+    private static void validateEvenData(Integer[] num) {
+        for (int i=0;i<num.length;i++){
+            if (num[i]%2==0)
+                even.add(num[i]);
+        }
+    }
 
+    private static void showData(Integer[] num) {
+        System.out.println("Data in array: ");
 
-} //class
+        for(int val: num)
+            System.out.print(val+" ");
+        System.out.println();
+    }
 
+    private static Integer[] inputData(Integer[] num) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter an integer: ");
+        for(int i=0;i<num.length;i++){
+            System.out.print("num["+i+"]: ");
+            num[i] = scanner.nextInt();
+        }
+        return num;
+    }//inputdata
+
+}//class

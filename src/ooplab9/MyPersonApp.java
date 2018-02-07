@@ -7,6 +7,10 @@ public class MyPersonApp {
                 new Job("Programer",30000));
 
         System.out.println(person.toString());
+
+        person.getJob().setSalary(50000);
+        System.out.println("Name: "+person.getName()+
+            "Salary: "+person.getJob().getSalary());
     }
 
 

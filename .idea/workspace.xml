@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23ff41b8-b24e-43e1-969e-abc47c9d31d9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ooplab8/Rectangle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ooplab8/Shape.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,7 +40,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rectangle.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Rectangle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ooplab8/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="663">
@@ -57,6 +57,16 @@
                 <element signature="e#740#741#0" expanded="true" />
                 <element signature="e#776#777#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Shape.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ooplab8/Shape.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -137,6 +147,7 @@
         <option value="$PROJECT_DIR$/src/ooplab8/Employee.java" />
         <option value="$PROJECT_DIR$/src/ooplab8/EmployeeApp.java" />
         <option value="$PROJECT_DIR$/src/ooplab8/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/ooplab8/Shape.java" />
       </list>
     </option>
   </component>
@@ -752,7 +763,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519590327869</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="rectangle">
+      <created>1519590440383</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1519590440383</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -791,7 +809,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Test Array List" />
     <MESSAGE value="sorting Array Data2" />
     <MESSAGE value="Edit sorting Array Data" />
     <MESSAGE value="testSortingArray" />
@@ -816,7 +833,8 @@
     <MESSAGE value="Student" />
     <MESSAGE value="employee" />
     <MESSAGE value="employee app" />
-    <option name="LAST_COMMIT_MESSAGE" value="employee app" />
+    <MESSAGE value="rectangle" />
+    <option name="LAST_COMMIT_MESSAGE" value="rectangle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -825,13 +843,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/oop_lap/s359211110077/rmutsv/com/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ooplab2/TestVariable.java" />
     <entry file="file://$PROJECT_DIR$/src/ooplab5/sortingArray.java" />
     <entry file="file://$PROJECT_DIR$/src/ooplab5/OperatorInArray.java">
@@ -1246,6 +1257,14 @@
             <element signature="e#740#741#0" expanded="true" />
             <element signature="e#776#777#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ooplab8/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
